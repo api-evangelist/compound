@@ -1,0 +1,40 @@
+name: Compound Finance
+description: Compound is a decentralized, blockchain-based protocol that allows users to lend and borrow cryptocurrencies (DeFi lending protocol) built on Ethereum.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/apis.yml
+created: '2026-06-14'
+modified: '2026-06-14'
+specificationVersion: '0.18'
+tags:
+  - DeFi
+  - Lending
+  - Borrowing
+  - Ethereum
+  - Blockchain
+  - Finance
+  - Cryptocurrency
+apis:
+  - name: Compound Finance GraphQL API
+    description: GraphQL API for querying Compound Finance v2 protocol data via The Graph subgraph, including markets, accounts, borrows, repays, liquidations, and token transfers.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://compound.finance/docs
+    baseURL: https://api.thegraph.com/subgraphs/name/graphprotocol/compound-v2
+    tags:
+      - GraphQL
+      - DeFi
+      - Lending
+      - Subgraph
+    properties:
+      - type: GraphQL
+        url: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/graphql/compound-schema.graphql
+      - type: GraphQLDocumentation
+        url: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/graphql/compound-graphql.md
+      - type: Documentation
+        url: https://compound.finance/docs
+      - type: GitHub
+        url: https://github.com/graphprotocol/compound-v2-subgraph
+maintainers:
+  - FN: API Evangelist
+    email: info@apievangelist.com
+    X-twitter: apievangelist
+    url: https://apievangelist.com
