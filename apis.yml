@@ -1,6 +1,6 @@
 name: Compound Finance
 description: Compound is a decentralized, blockchain-based protocol that allows users to lend and borrow cryptocurrencies (DeFi lending protocol) built on Ethereum.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/apis.yml
 created: '2026-06-14'
 modified: '2026-06-14'
@@ -16,7 +16,7 @@ tags:
 apis:
   - name: Compound Finance GraphQL API
     description: GraphQL API for querying Compound Finance v2 protocol data via The Graph subgraph, including markets, accounts, borrows, repays, liquidations, and token transfers.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://compound.finance/docs
     baseURL: https://api.thegraph.com/subgraphs/name/graphprotocol/compound-v2
     tags:
