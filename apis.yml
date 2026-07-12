@@ -38,3 +38,8 @@ maintainers:
     email: info@apievangelist.com
     X-twitter: apievangelist
     url: https://apievangelist.com
+common:
+- type: VulnerabilityDisclosure
+  url: security/compound-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/compound-domain-security.yml
