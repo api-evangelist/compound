@@ -15,7 +15,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/compound.p
 url: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/apis.yml
 created: '2026-06-14'
 modified: '2026-06-14'
-specificationVersion: '0.18'
+specificationVersion: '0.23'
 tags:
   - DeFi
   - Lending
