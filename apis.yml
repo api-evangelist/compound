@@ -3,14 +3,17 @@ description: Compound is a decentralized, blockchain-based protocol that allows 
   cryptocurrencies (DeFi lending protocol) built on Ethereum.
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - graphprotocol/compound-v2-subgraph
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
