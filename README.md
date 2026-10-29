@@ -1,4 +1,4 @@
-# Compound Finance (compound)
+# Compound Finance
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,48 +66,88 @@
 
 Compound is a decentralized, blockchain-based protocol that allows users to lend and borrow cryptocurrencies (DeFi lending protocol) built on Ethereum.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/apis.yml)
+**Areas:** DeFi · Lending · Borrowing · Ethereum · Blockchain · Finance · Cryptocurrency
 
-## Tags
+## Compound Finance on APIs.io
 
-- DeFi
-- Lending
-- Borrowing
-- Ethereum
-- Blockchain
-- Finance
-- Cryptocurrency
+Everything profiled for Compound Finance is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/compound/](https://apis.io/providers/compound/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-14
-- **Modified:** 2026-06-14
+- [Compound Finance GraphQL API](https://apis.io/apis/compound/compound-finance-graphql-api/) — GraphQL API for querying Compound Finance v2 protocol data via The Graph subgraph, including markets, accounts, borrows, repays, liquidations, and token…
 
-## APIs
+### Published properties
 
-### Compound Finance GraphQL API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-GraphQL API for querying Compound Finance v2 protocol data via The Graph subgraph, including markets, accounts, borrows, repays, liquidations, and token transfers.
+#### GraphQL (1)
 
-- **Human URL:** [https://compound.finance/docs](https://compound.finance/docs)
-- **Base URL:** `https://api.thegraph.com/subgraphs/name/graphprotocol/compound-v2`
+GraphQL schemas.
 
-#### Tags
+- [Compound Finance GraphQL API](https://apis.io/graphqls/compound/compound-graphql/)
 
-- GraphQL
-- DeFi
-- Lending
-- Subgraph
+#### Security (2)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Graph Q L](https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/graphql/compound-schema.graphql)
-- [Graph Q L Documentation](https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/graphql/compound-graphql.md)
-- [Documentation](https://compound.finance/docs)
-- [Git Hub](https://github.com/graphprotocol/compound-v2-subgraph)
+- [Compound Domain Security](https://apis.io/security/compound/compound-domain-security/)
+- [Compound Vulnerability Disclosure](https://apis.io/security/compound/compound-vulnerability-disclosure/)
 
-## Maintainers
+## Where to find this API
 
-**FN:** API Evangelist
-**Email:** info@apievangelist.com
-**URL:** https://apievangelist.com
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://compound.finance)
+
+## API Evangelist rating
+
+**Kin Score 16.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 34.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/compound/](https://apis.io/providers/compound/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Compound Finance: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/compound/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
